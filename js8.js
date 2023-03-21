@@ -1,4 +1,3 @@
-// Write function below
 const subLength = (string,char) => {
   let newString = string.split("");
   let counter = 0;
