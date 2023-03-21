@@ -4,14 +4,14 @@ const subLength = (string,char) => {
   let counter = 0;
   let indexDiff = [];
   let difference = 0;
-  console.log(newString);
+  console.log(newString); // making sure that newString was converted into an array
   
    for(let i = 0 ; i < newString.length ; i++){
        if(newString[i] === char){
          counter++;
          indexDiff.push(i);
-         console.log(`counter: ${counter}`);
-         console.log(`indexes: ${i}`);
+         console.log(`counter: ${counter}`);  // making sure that the counter works
+         console.log(`indexes: ${i}`);     // checking if the index number of the characters is correctly pushed into the indexDiff array
        }
    }
  
